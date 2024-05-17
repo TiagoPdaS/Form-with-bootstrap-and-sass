@@ -1,9 +1,45 @@
 *{
-    padding: 0;
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
 }
 
 body{
     background-image: url(../images/background.svg);
-    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    color: $white-color;
+}
+
+.container1{
+    background-color: $background-color;
+    width:450px;
+    height:auto;
+}
+
+.topLogo{
+    width: 180px;
+}
+
+.paragraph{
+    margin: 8px 0px;
+}
+
+.btnSend{
+    color: $button-color;
+    border: 1px solid $button-color;
+    margin-bottom: 20px;
+
+    &:hover{
+        background-color: $button-color;
+        color:$white-color;
+    }
+}
+
+.footer{
+    margin-top:30px;
+    margin-bottom:30px;
 }
